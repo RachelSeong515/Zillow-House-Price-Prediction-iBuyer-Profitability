@@ -11,8 +11,8 @@ The best-performing MLP achieved a validation MER of approximately 0.09, while e
 
 1. Base MLP	- 2 layers (256, 128)	: Mild overfitting, stable validation
 2. Deeper MLP	- 4 layers:	Similar validation, slower convergence
-3. + Norm Reg + Early Stop	Lasso + early stopping:	Stable but noisy validation
-4. + Dropout + Norm Reg	Dropout + regularization: Best generalization
+3. +Norm Reg + Early Stop	Lasso + early stopping:	Stable but noisy validation
+4. +Dropout + Norm Reg	Dropout + regularization: Best generalization
 
 # Data Predictions
 
